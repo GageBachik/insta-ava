@@ -1,7 +1,19 @@
 {
-	"dependencies": {
-		"express": "^4",
-		"jade": "^1",
-		"body-parser": "^1"
-	}
+	"name": "insta-ava",
+	"version": "0.0.1",
+	"description": "Instagram Viewer",
+	"main": "app.js",
+	"web": "node app.js",
+	"scripts": {
+	  "test": "foreman start"
+	},
+	"repository": "",
+	"author": "Gage Bachik",
+	"license": "MIT",
+  "dependencies": {
+    "body-parser": "^1",
+    "express": "^4",
+    "instagram-node-lib": "^0.1.1",
+    "jade": "^1"
+  }
 }

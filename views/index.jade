@@ -1,4 +1,9 @@
 extends layout
 
 block content
-	h1 Hello Boulder!
+	h1 Sign-In
+	form(action='/admin', method='get')
+		| password:
+		input(type='password', name='password')
+		br
+		input(type='submit', value='Submit')
