@@ -1,9 +1,8 @@
 extends layout
 
 block content
-	h1 Sign-In
+	h1 Sign-in
 	form(action='/admin', method='get')
 		| password:
 		input(type='password', name='password')
-		br
 		input(type='submit', value='Submit')

@@ -1,4 +1,13 @@
 extends layout
 
 block content
-  h1 Admin Panel
+	h1 Admin Panel
+	h4 block with care!
+	ul.images
+	- each image in images
+		li
+			img(src='#{image.image}')
+			p.id #{image.id}
+			br
+			button.ban BLOCK IMAGE
+		
