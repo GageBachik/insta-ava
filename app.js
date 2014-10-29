@@ -1,13 +1,13 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://insta-ava:freedom347@ds049150.mongolab.com:49150/insta-ava');
+mongoose.connect('mongodb://admin:lolsauce123!@linus.mongohq.com:10004/insta-ava');
 var Blocked = mongoose.model('Blocked', { image: String });
 Instagram = require('instagram-node-lib');
 var port = process.env.PORT || 3000;
 var cors = require('cors')
-Instagram.set('client_id', '3c91d050cfd749178805d7660b1499ca');
-Instagram.set('client_secret', 'adaa5118a8df4e169c37734156302799');
+Instagram.set('client_id', '86954931cb85472abf8c968e961e40c7');
+Instagram.set('client_secret', 'e32960326b4b41958d65f676cf0d8785');
 var IMAGE_TAG = 'plane'
 
 var app = express();
