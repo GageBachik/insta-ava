@@ -6,8 +6,8 @@ var Blocked = mongoose.model('Blocked', { image: String });
 Instagram = require('instagram-node-lib');
 var port = process.env.PORT || 3000;
 var cors = require('cors')
-Instagram.set('client_id', '86954931cb85472abf8c968e961e40c7');
-Instagram.set('client_secret', 'e32960326b4b41958d65f676cf0d8785');
+Instagram.set('client_id', 'fadcea9743384ea192074d53fe639b80');
+Instagram.set('client_secret', 'ff62c5fbdd6c4cbdaf404842cc5f3c9a');
 var IMAGE_TAG = 'plane'
 
 var app = express();
